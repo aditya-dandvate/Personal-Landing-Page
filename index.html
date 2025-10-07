@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Dandvate – Personal Resume</title>
+    <!-- Google fonts for modern typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-XxXxXxXxXx" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Local stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero section with gradient background -->
+    <header id="home" class="hero">
+        <nav class="navbar">
+            <div class="logo">Aditya</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>Aditya Dandvate</h1>
+            <p>Senior Associate Consultant &amp; DevOps Leader</p>
+            <div class="hero-icons">
+                <a href="https://www.linkedin.com/in/aditya-dandvate/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/aditya-dandvate" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:aditya.dandvate@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+            <div class="hero-buttons">
+                <a href="#about" class="btn hero-btn">More about me</a>
+                <!-- Download resume button -->
+                <a href="resume.pdf" class="btn hero-btn secondary-btn" download>Download&nbsp;Resume</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/headshot.jpg" alt="Aditya Dandvate portrait">
+                </div>
+                <div class="about-text">
+                    <p>
+                        Accomplished DevOps leader adept in Agile delivery and digital product launches. I leverage Jira, AWS and team
+                        management skills to orchestrate high‑impact global portal rollouts. Passionate about engineering scalable
+                        infrastructure and fostering collaboration across development, QA and operations teams, I thrive on enabling
+                        organisations to deliver software faster and more reliably.
+                    </p>
+                    <ul class="details-list">
+                        <li><strong>Location:</strong> Södertälje, Sweden</li>
+                        <!-- Phone number removed -->
+                        <li><strong>Email:</strong> aditya.dandvate@gmail.com</li>
+                    </ul>
+                    <!-- Contact button for sending an email -->
+                    <div class="contact-buttons">
+                        <a href="mailto:aditya.dandvate@gmail.com" class="btn email-btn"><i class="fa fa-envelope"></i> Contact&nbsp;Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume section -->
+    <section id="resume" class="section resume-section">
+        <div class="container">
+            <h2>Resume</h2>
+            <div class="resume-grid">
+                <!-- Experience -->
+                <div class="resume-column">
+                    <h3>Experience</h3>
+                    <div class="resume-item">
+                        <h4>Senior Associate Consultant</h4>
+                        <span class="resume-meta">May 2022 – Present | Infosys / Scania, Södertälje</span>
+                        <ul>
+                            <li>Engineered and administered enterprise‑grade Jira infrastructure on AWS, implementing automated provisioning, monitoring and scaling to ensure high availability and performance.</li>
+                            <li>Automated CI/CD workflows and cross‑tool integrations (Jira, Git, Jenkins, Confluence) to streamline issue tracking, release management and deployment pipelines across global teams.</li>
+                            <li>Developed Python‑based automation scripts using Jira REST APIs to collect metrics, synchronize environments and generate operational reports — reducing manual workload and improving visibility.</li>
+                            <li>Collaborated with development, QA and operations teams to enhance digital delivery pipelines for a global B2B manufacturing enterprise, improving release speed and reliability.</li>
+                        </ul>
+                    </div>
+                    <div class="resume-item">
+                        <h4>System Engineer</h4>
+                        <span class="resume-meta">Nov 2019 – Mar 2022 | Tata Consultancy Services / Ericsson</span>
+                        <ul>
+                            <li>Managed and optimized Jenkins pipelines for large‑scale enterprise CI/CD workflows, reducing delivery times.</li>
+                            <li>Built automation scripts in Python to gather Jenkins logs, improving troubleshooting and reducing downtime.</li>
+                            <li>Collaborated with distributed teams to ensure seamless product delivery and DevOps adoption.</li>
+                            <li>Awarded On‑the‑Spot Award for successfully implementing automation initiatives that improved team efficiency.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Education -->
+                <div class="resume-column">
+                    <h3>Education</h3>
+                    <div class="resume-item">
+                        <h4>B.Tech in Electronics and Telecommunications</h4>
+                        <span class="resume-meta">Shri Guru Gobind Singhji Institute of Engineering and Technology | 2019</span>
+                        <p>Graduated with a focus on communications engineering and systems design, laying a strong foundation for my career in DevOps and infrastructure management.</p>
+                    </div>
+                    <!-- Languages -->
+                    <h3>Languages</h3>
+                    <ul class="languages-list">
+                        <li>English</li>
+                        <li>Hindi</li>
+                        <li>Telugu</li>
+                        <li>Swedish</li>
+                        <li>Marathi</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills section -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">Jira &amp; Confluence (Admin)</div>
+                <div class="skill-card">GitLab &amp; Jenkins</div>
+                <div class="skill-card">Artifactory &amp; Postman</div>
+                <div class="skill-card">Kubernetes &amp; Docker</div>
+                <div class="skill-card">AWS (EC2, S3, IAM, RDS)</div>
+                <div class="skill-card">CI/CD Pipeline Optimisation</div>
+                <div class="skill-card">Project &amp; Program Management</div>
+                <div class="skill-card">Python &amp; Shell Scripting</div>
+                <div class="skill-card">Stakeholder &amp; Vendor Coordination</div>
+                <div class="skill-card">Risk Management &amp; Delivery Assurance</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Aditya Dandvate. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/aditya-dandvate/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/aditya-dandvate" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:aditya.dandvate@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
